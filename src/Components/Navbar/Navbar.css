@@ -1,0 +1,78 @@
+.Whole_Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+}
+.same {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.same {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: white;
+  opacity: 1;
+}
+
+.same:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.same:hover:before {
+  visibility: visible;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.same:hover > .fa-home {
+  display: inline-block;
+}
+
+.same1 {
+  color: white;
+  text-decoration: none;
+}
+.logo_pic {
+  margin-left: 30px;
+}
+.logo_pic h1 {
+  animation: Logo_Move 2s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes Logo_Move {
+  from {
+    padding-left: 40px;
+  }
+  to {
+    padding-right: 40px;
+  }
+}
+
+.main_nav {
+  margin-right: 20px;
+}
+
+.main_nav > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 5px;
+}
+
+.icon {
+  margin-right: 2px;
+}
