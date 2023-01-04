@@ -39,11 +39,7 @@ const Home = () => {
             }}
           />
       </div>
-
-      {/* <div className="right">
-        <img src={me} alt="" />
-      </div> */}
-
+      
       <div className="right">
       <motion.img
       src={me}
