@@ -1,29 +1,28 @@
 import React from "react";
-import Navbar from '../../Components/Navbar/Navbar';
-import "../Home/Home.css"
+import "../Hero/Hero.css"
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import me from '../../asset/Profile.png'
+
 const animations = {
-  h1: {
-    initial: {
-      x: "-100%",
-      opacity: 0,
-    },
-    transition:{ 
-      type: "spring", 
-      stiffness: 100,
-      
-    },
-    whileInView: {
-      x: 0,
-      opacity: 1,
+    h1: {
+      initial: {
+        x: "-100%",
+        opacity: 0,
+      },
+      transition:{ 
+        type: "spring", 
+        stiffness: 100,
+        
+      },
+      whileInView: {
+        x: 0,
+        opacity: 1,
+      }
     }
   }
-}
-const Home = () => {
-  return <>
-    <Navbar/>
+const Hero = () => {
+    return <>
     <div className="whole_Main">
       <div className="left">
           <motion.h1 {...animations.h1}>Hi There,<br />
@@ -48,9 +47,8 @@ const Home = () => {
       style={{ border: "5px solid transparent" }}
     />
       </div>
-      
     </div>
     </>
-};
+}
 
-export default Home;
+export default Hero

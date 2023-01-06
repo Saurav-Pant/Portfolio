@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./Routes/Home/Home";
-import About from "./Routes/About/About";
-import Contact from "./Routes/Contact/Contact";
-import Project from "./Routes/Project/Project";
-import Skills from "./Routes/Skills/Skills";
+import Home from "./Routes/Home";
+import About from "./Routes/About";
+import Contact from "./Routes/Contact";
+import Project from "./Routes/Project";
+import Skills from "./Routes/Skills";
 
 function App() {
   return (
