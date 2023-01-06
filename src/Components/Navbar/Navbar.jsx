@@ -7,6 +7,7 @@ import { BsFileEarmarkPersonFill } from "react-icons/bs";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { TiContacts } from "react-icons/ti";
 import { GiHiveMind } from "react-icons/gi";
+import Toggle from '../Toggle/Toggle';
 
 
 const Navbar = () => {
@@ -27,6 +28,7 @@ const Navbar = () => {
             </motion.div>
 
             {/* NavSection */}
+            <Toggle/>
 
             <div className="main_nav">
                 <ul style={{ listStyleType: "none" }}>

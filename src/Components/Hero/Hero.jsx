@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="left">
           <motion.h1 {...animations.h1}>Hi There,<br />
           I'm Saurav <br />
-          <span>Pant</span></motion.h1>
+          <span className="effect">Pant</span></motion.h1>
           <Typewriter
             options={{
               strings: ["A FrontEnd Developer", "A Backend Developer", "A Creator"],
@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="right">
       <motion.img
       src={me}
-      whileHover={{ scale: 1.1,rotate:720, border: "5px solid #222222",borderRadius:20}}
+      whileHover={{ scale: 1.1,rotate:360, border: "5px solid #222222",borderRadius:20}}
       transition={{ duration: 1 }}
       style={{ border: "5px solid transparent" }}
     />
