@@ -1,8 +1,14 @@
 import React from "react";
-import Navbar from '../Components/Navbar/Navbar';
+import Learning from "../Components/Learning/Learning";
+import Navbar from "../Components/Navbar/Navbar";
 
 const Skills = () => {
-  return <div><Navbar/></div>;
+  return (
+    <div>
+      <Navbar />
+      <Learning />
+    </div>
+  );
 };
 
 export default Skills;

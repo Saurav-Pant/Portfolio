@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import "./MyDetail.css";
 
 const MyDetail = () => {
   return (
     <>
-        <h1>Hello World</h1>
+      <div className="About">
+        <h1>About Section</h1>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default MyDetail
+export default MyDetail;
