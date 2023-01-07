@@ -24,6 +24,7 @@ const animations = {
 const Hero = () => {
     return <>
     <div className="whole_Main">
+      
       <div className="left">
           <motion.h1 {...animations.h1}>Hi There,<br />
           I'm Saurav <br />

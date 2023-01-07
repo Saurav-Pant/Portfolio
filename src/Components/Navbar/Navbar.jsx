@@ -7,15 +7,13 @@ import { BsFileEarmarkPersonFill } from "react-icons/bs";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { TiContacts } from "react-icons/ti";
 import { GiHiveMind } from "react-icons/gi";
-import Toggle from '../Toggle/Toggle';
+// import Toggle from '../Toggle/Toggle';
 
 
 const Navbar = () => {
   return (
         <>
         <div className="Whole_Nav">
-
-            {/* Logo  */}
 
             <motion.div className="logo_pic"
               initial={{ x:0,opacity:0}}
@@ -28,13 +26,12 @@ const Navbar = () => {
             </motion.div>
 
             {/* NavSection */}
-            <Toggle/>
+            {/* <Toggle/> */}
 
             <div className="main_nav">
                 <ul style={{ listStyleType: "none" }}>
                     <li>
-                        <Link to="/" className='same'>
-                             
+                        <Link to="/" className='same'>                        
                             <FaHome className='icon' /> HOME</Link>  
                    </li>
 

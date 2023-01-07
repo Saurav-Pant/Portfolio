@@ -2,31 +2,33 @@
 
 .whole_Main {
   color: white;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 50% 50%;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
+  max-width: 100vw;
+  background: linear-gradient(to right, #000000, #2d3436);
+  font-size: 20px;
 }
 
 .left {
-  width: 65%;
-  margin-left: 200px;
+  width: 100%;
+  margin-left: 12.5%;
 }
 
 .left h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
+  margin-top: 1em;
 }
 
 .left .typewriterpara {
-  margin: 20px 0;
-  height: 20px;
+  margin: 1.25em 0em;
+  height: 1.25em;
   letter-spacing: 5px;
-  font-size: 30px;
-  margin-top: 10px;
+  font-size: 1.875rem;
+  margin-top: 0.625em;
   transition-delay: 0.2s;
   color: white;
 }
@@ -41,14 +43,27 @@
 }
 
 .right {
-  width: 50%;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 80vh;
 }
 
 .right img {
   height: 50vh;
-  margin-left: 250px;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .whole_Main {
+    flex-direction: column;
+    height: 140vh;
+    text-align: center;
+  }
+  .main_nav {
+    display: none;
+  }
+  .left .typewriterpara {
+    font-size: 1rem;
+  }
 }
