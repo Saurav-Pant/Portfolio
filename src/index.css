@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to right, #5459df, #1bffff);
-  color: #ccc;
   width: 100vw;
   overflow-x: hidden;
 }
