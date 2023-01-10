@@ -51,7 +51,7 @@ const MyDetail = () => {
           <div className="right_About">
             <h1>I'm Saurav</h1>
             <motion.p className="Passion" {...animations2.p}>
-              Passionate Full Stack Developer || Web3 Enthusiast
+              Passionate FrontEnd Developer || Web3 Enthusiast
             </motion.p>
             <p className="Passion2">
               I have a passion for learning new technologies in web development
