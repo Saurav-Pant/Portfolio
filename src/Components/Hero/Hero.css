@@ -13,14 +13,12 @@
   font-size: 20px;
   width: 100vw;
   margin: 0;
-  flex: 1;
   background-size: cover;
 }
 
 .left {
   width: 100%;
   margin-left: 12.5%;
-  flex: 0.5;
 }
 
 .left h1 {
@@ -52,7 +50,6 @@
   display: flex;
   align-items: center;
   height: 80vh;
-  flex: 0.5;
 }
 
 .right img {
@@ -65,7 +62,6 @@
     flex-direction: column;
     height: 140vh;
     text-align: center;
-    width: 100vw;
   }
   .main_nav {
     display: none;
