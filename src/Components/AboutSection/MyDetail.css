@@ -89,7 +89,7 @@
   letter-spacing: 3px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   .About_Section {
     height: 140vh;
   }
@@ -108,5 +108,5 @@
     margin-right: 2em;
   }
 }
-@media (max-width: 1101) {
-}
+/* @media (max-width: 1101) {
+} */
