@@ -62,6 +62,10 @@
     height: 140vh;
     text-align: center;
     object-fit: cover;
+    overflow: hidden;
+  }
+  .right img {
+    height: 40vh;
   }
   .main_nav {
     display: none;
