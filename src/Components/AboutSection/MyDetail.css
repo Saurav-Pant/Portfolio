@@ -99,6 +99,8 @@
   }
   .AboutImg {
     margin: 20px auto;
+    height: 70%;
+    /* width: 70%; */
   }
   .right_About {
     margin: auto;
