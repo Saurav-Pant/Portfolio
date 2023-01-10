@@ -1,11 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,400&display=swap");
 
 .About_Section {
   text-align: center;
+  width: 100vw;
+  height: 90vh;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  margin-top: 2em;
 }
 .About_Section .ForDown {
   color: black;
   font-weight: 900;
+  margin-top: 0;
+  padding-top: 1em;
 }
 
 .About {
@@ -40,6 +47,7 @@
   margin-right: 15em;
   margin-top: 3em;
   color: #d7e9b9;
+  margin-left: 5em;
 }
 .right_About h1 {
   font-family: "Roboto", sans-serif;
@@ -49,4 +57,56 @@
   margin-top: 0.5em;
   font-weight: 700;
   color: #0a2647;
+}
+.right_About .Passion2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+  font-weight: 700;
+  color: #332fd0;
+  line-height: 1.5;
+  text-indent: 2em;
+  padding-left: 2em;
+}
+.resume {
+  margin-top: 3em;
+}
+
+.resume button {
+  padding: 0.8em 1.5em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  background-color: #293bfc;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.resume button:hover {
+  background-color: #0014ff;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 1100px) {
+  .About_Section {
+    height: 140vh;
+  }
+  .About {
+    flex-direction: column;
+    text-align: center;
+  }
+  .AboutImg {
+    margin: 20px auto;
+  }
+  .right_About {
+    margin: auto;
+  }
+  .Passion2 {
+    margin: auto 1em;
+    margin-right: 2em;
+  }
+}
+@media (max-width: 1101) {
 }

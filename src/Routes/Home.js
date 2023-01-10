@@ -5,10 +5,12 @@ import MyDetail from "../Components/AboutSection/MyDetail";
 import Work from "../Components/Work/Work";
 import Learning from "../Components/Learning/Learning";
 import Reach from "../Components/Reach/Reach";
+// import Loading from "../Components/Loading Page/Loading";
 
 const Home = () => {
   return (
     <div>
+      {/* <Loading /> */}
       <Navbar />
       <Hero />
       <MyDetail />

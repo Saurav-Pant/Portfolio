@@ -6,6 +6,6 @@
 body {
   background: linear-gradient(to right, #5459df, #1bffff);
   color: #ccc;
-  max-width: 100vw;
+  min-width: 100vw;
   overflow-x: hidden;
 }
