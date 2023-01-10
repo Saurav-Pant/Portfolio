@@ -31,7 +31,7 @@ const Hero = () => {
           <span className="effect">Pant</span></motion.h1>
           <Typewriter
             options={{
-              strings: ["A FrontEnd Developer", "A Backend Developer", "A Creator"],
+              strings: ["A FrontEnd Developer", "A Creator"],
               autoStart: true,
               loop: true,
               // cursor: "",
