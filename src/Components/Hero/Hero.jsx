@@ -27,7 +27,7 @@ const Hero = () => {
       
       <div className="left">
           <motion.h1 {...animations.h1}>Hi There,<br />
-          I'm Saurav <br />
+          I'm <span>Saurav</span> <br />
           <span className="effect">Pant</span></motion.h1>
           <Typewriter
             options={{

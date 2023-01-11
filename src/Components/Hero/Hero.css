@@ -57,11 +57,10 @@
   margin: auto;
 }
 
-
 @media (max-width: 1025px) {
   .whole_Main {
     flex-direction: column;
-    height: 140vh;
+    height: 150vh;
     text-align: center;
     object-fit: cover;
     overflow: hidden;

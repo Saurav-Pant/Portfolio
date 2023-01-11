@@ -6,11 +6,18 @@ import { FaHome } from "react-icons/fa";
 import { BsFileEarmarkPersonFill } from "react-icons/bs";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { TiContacts } from "react-icons/ti";
-import { GiHiveMind } from "react-icons/gi";
+import { GiHamburgerMenu, GiHiveMind } from "react-icons/gi";
+import { useState } from 'react';
 // import Toggle from '../Toggle/Toggle';
 
 
 const Navbar = () => {
+    const[toggle,setToggle]=useState('false');
+
+    const forChange = ()=> {
+        console.log("ok");
+        toggle === 'false'?setToggle('true'):setToggle('false')
+    }
   return (
         <>
         <div className="Whole_Nav">
@@ -53,6 +60,9 @@ const Navbar = () => {
                     </li>
 
                 </ul>
+            </div>
+            <div className="active">
+            <GiHamburgerMenu className='ham' onClick={forChange}/>
             </div>
         </div>
 

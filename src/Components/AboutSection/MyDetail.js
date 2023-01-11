@@ -49,7 +49,9 @@ const MyDetail = () => {
             />
           </div>
           <div className="right_About">
-            <h1>I'm Saurav</h1>
+            <h1>
+              I'm <span>Saurav</span>
+            </h1>
             <motion.p className="Passion" {...animations2.p}>
               Passionate FrontEnd Developer || Web3 Enthusiast
             </motion.p>

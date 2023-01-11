@@ -86,8 +86,23 @@
   margin-right: 2px;
 }
 
+.active .ham {
+  color: white;
+  position: relative;
+  right: 2em;
+  height: 2em;
+  width: 3em;
+  cursor: pointer;
+}
+
 @media (max-width: 1025px) {
   .main_nav {
+    display: none;
+  }
+}
+
+@media(min-width:1026px){
+  .active .ham{
     display: none;
   }
 }
