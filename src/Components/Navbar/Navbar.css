@@ -49,14 +49,17 @@
   color: white;
   text-decoration: none;
 }
+
 .same1:hover {
   transition: 0.6s;
   opacity: 0.5;
 }
+
 .logo_pic {
   margin-left: 30px;
   width: 35vw;
 }
+
 .logo_pic h1 {
   animation: Logo_Move 2s linear infinite;
   animation-direction: alternate;
@@ -73,7 +76,7 @@
 
 .main_nav {
   margin-right: 20px;
-  width: 65vw;
+  /* width: 65vw; */
 }
 
 .main_nav > ul {
@@ -88,7 +91,7 @@
 
 .active .ham {
   color: white;
-  position: relative;
+  /* position: relative; */
   right: 2em;
   height: 2em;
   width: 3em;
@@ -99,10 +102,24 @@
   .main_nav {
     display: none;
   }
+  #main_nav {
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    width: 100vw;
+  }
+  #main_nav ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #39b5e0;
+  }
 }
 
-@media(min-width:1026px){
-  .active .ham{
+@media (min-width: 1026px) {
+  .active .ham {
     display: none;
   }
 }
